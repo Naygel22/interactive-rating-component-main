@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.app{
+  width: 400px;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(0, 0%, 100%);
+ 
+  border-radius: 30px;
+  padding: 30px;
+  
+}
+.circle-container{
+  border-radius: 50%;
+  background-color: hsl(219, 10%, 27%);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle-container:hover{
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+.active{
+  background-color: hsl(216, 12%, 54%);
+  opacity: 1;
+}
+#starCircle{
+  margin-bottom: 30px;
+  border-radius: 50%;
+  background-color: hsl(219, 10%, 27%);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.description{
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.5;
+}
+.submitButton{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.submitButton:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+.circlesBar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.ratingNumber{
+    opacity: 0.5;
+}
+.endScreen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.selectionBar{
+    background-color: hsl(219, 10%, 27%);
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: hsl(25, 97%, 53%);
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+.hidden{
+    display: none;
+}
